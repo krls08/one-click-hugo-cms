@@ -1,5 +1,5 @@
 ---
-title: "Great coffee with a conscience"
+title: "Great coffee with a conscience Test1"
 subtitle: Support sustainable farming while enjoying a cup TEST EDIT
 image: /img/home-jumbotron.jpg
 blurb:
