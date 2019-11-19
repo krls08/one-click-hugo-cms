@@ -5,15 +5,3 @@ description: Introduction to post
 image: /img/about-shade-grown.jpg
 ---
 Body lore ipsum......
-
-.....
-
-\---
-
-\--.....
-
-\---
-
-\--
-
-adf
