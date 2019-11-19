@@ -40,5 +40,14 @@ values:
 title2: Title 2
 tags:
   - '#tag'
+testimonials:
+  - author:
+      avatar: /img/blue-wallpaper-7.jpg
+      name: Emmet
+    quote: Everything is awesome!
+  - author:
+      avatar: /img/about-reinvest-profits.jpg
+      name: Emmet 2
+    quote: Everything is awesome! 2
 ---
 
