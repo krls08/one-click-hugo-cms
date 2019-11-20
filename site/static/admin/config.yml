@@ -37,6 +37,23 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
+          - {label: Title, name: title2, widget: string}
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            allow_add: false
+            default: ["news"]
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+              - label: Author
+                name: author
+                widget: object
+                fields:
+                  - {label: Name, name: name, widget: string, default: "Emmet"}
+                  - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
@@ -80,3 +97,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+#  - name: "dummy"
+#    label: "Dummy - PoC widgets"
+#    folder: "dummy"
+#    create: true
+#    editor: 
+#      preview: false        
+#    slug: "{{slug}}"
+#    fields:
+#      - {label: "Title", name: "title", widget: "hidden"}
+#      - {label: "Selector custom", name: "selector", widget: "selector_custom"}
+
